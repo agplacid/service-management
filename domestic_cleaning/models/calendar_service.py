@@ -20,9 +20,9 @@
 #
 ##############################################################################
 
-from openerp import models, fields, api
-from openerp.exceptions import Warning
-from openerp.tools.translate import _
+from odoo import models, fields, api
+from odoo.exceptions import Warning
+from odoo.tools.translate import _
 import pytz
 
 
