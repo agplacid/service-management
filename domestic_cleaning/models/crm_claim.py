@@ -20,7 +20,7 @@
 #
 ##############################################################################
 
-from openerp import models, fields, api
+from odoo import models, fields, api
 from analytic import DANGER_REASON, COMMUNICATION_REASON, SCHEDULE_REASON
 CLAIM = [('quality', 'Cleaning Quality'), ('danger', 'Danger'), ('damage', 'Damage to Property'),
     ('commun', 'Communication Problems with HM'), ('cheating', 'Housemaid Cheating'),
