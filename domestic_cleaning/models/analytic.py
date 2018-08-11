@@ -20,7 +20,7 @@
 #
 ##############################################################################
 
-from openerp import models, fields
+from odoo import models, fields
 
 TERMINATION_REASON = [
     ('moved', 'Moved'), ('quality', 'Cleaning Quality'),
