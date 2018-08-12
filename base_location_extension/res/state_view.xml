@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<openerp>
+<odoo>
   <data>
     <!-- Add cities to the State form -->
     <record model="ir.ui.view" id="view_country_state_form3">
@@ -13,4 +13,4 @@
       </field>
     </record>
   </data>
-</openerp>
+</odoo>
