@@ -19,14 +19,15 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp.osv import orm, fields
+from openerp import models, fields
 
 
-class ResPartner(orm.Model):
+class ResPartner(models.Model):
     _inherit = "res.partner"
     _columns = {
-        'house_no': fields.char('House No.', size=64, help="House No."),
-        'apartment_no': fields.char('Apartment No.', size=64, help="Apartment No."),        
+    #name = fields.Char(string='Name', required=True) #Try this code
+        'house_no': fields.Char('House No.', size=64, help="House No."),
+        'apartment_no': fields.Char('Apartment No.', size=64, help="Apartment No."),        
     }
 
     def onchange_zip_id(self, cursor, uid, ids, zip_id, context=None):
