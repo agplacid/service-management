@@ -3,7 +3,7 @@
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,8 +19,8 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.     
 #
 ##############################################################################
-from odoo import models, fields, api
-from odoo import tools
+from openerp import models, fields, api
+from openerp import tools
 
 class crm_lead(models.Model):
     _name = 'crm.lead'
@@ -34,4 +34,3 @@ class crm_lead(models.Model):
     cleaning_note = fields.Text('Notes')    
     desirable_duration = fields.Float('Cleaning Time', help="Desirable Cleaning Time")
  
-   
