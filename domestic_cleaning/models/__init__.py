@@ -1,6 +1,6 @@
-import res_partner
-import crm_lead
-import calendar_service
-import analytic
-import crm_claim
-import hr
+from . import res_partner
+from . import crm_lead
+from . import calendar_service
+from . import analytic
+from . import crm_claim
+from . import hr
