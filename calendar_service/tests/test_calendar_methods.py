@@ -1,4 +1,4 @@
-from openerp.tests.common import TransactionCase
+from odoo.tests.common import TransactionCase
 from datetime import datetime
 import pytz
 class TestCalendarMethods(TransactionCase):
