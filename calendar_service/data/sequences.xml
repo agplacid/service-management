@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
 
         <!-- calendar.service -->
@@ -16,4 +16,4 @@
             <field name="company_id" eval="False"/>
         </record>
     </data>
-</openerp>
+</odoo>
