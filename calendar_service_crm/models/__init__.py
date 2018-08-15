@@ -1,2 +1,2 @@
-import crm_lead
-import calendar_service
+from . import crm_lead
+from . import calendar_service
