@@ -1,1 +1,1 @@
-import rule_change
+from . import rule_change
