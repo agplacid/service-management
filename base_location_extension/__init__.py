@@ -1,2 +1,2 @@
-import res
-import better_zip
+from . import res
+from . import better_zip
