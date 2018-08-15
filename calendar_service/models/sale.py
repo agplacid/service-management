@@ -19,9 +19,9 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.     
 #
 ##############################################################################
-from openerp import models, fields, api
-from openerp.exceptions import Warning
-from openerp.tools.translate import _
+from odoo import models, fields, api
+from odoo.exceptions import Warning
+from odoo.tools.translate import _
 
 class sale_order(models.Model):
     _inherit = 'sale.order'
