@@ -1,4 +1,4 @@
-import city
-import street
-import partner
-import company
+from . import city
+from . import street
+from . import partner
+from . import company
