@@ -3,7 +3,7 @@
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,7 +21,7 @@
 ##############################################################################
 
 from odoo import models, fields, api
-from analytic import DANGER_REASON, COMMUNICATION_REASON, SCHEDULE_REASON
+from .analytic import DANGER_REASON, COMMUNICATION_REASON, SCHEDULE_REASON
 CLAIM = [('quality', 'Cleaning Quality'), ('danger', 'Danger'), ('damage', 'Damage to Property'),
     ('commun', 'Communication Problems with HM'), ('cheating', 'Housemaid Cheating'),
     ('schedule', 'Failed to comply with Schedule'), ('resp', 'Lack of Responsibility'),
@@ -64,4 +64,3 @@ class crm_claim(models.Model):
     assessment_claim = fields.Selection(ASSESSMENT_CLAIM, 'Overall Negative Assessment')
     assessment_specify = fields.Char('Specify')
     damage_amount = fields.Float('Damage amount, %')
-
