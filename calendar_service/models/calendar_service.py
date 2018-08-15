@@ -3,7 +3,7 @@
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,11 +20,11 @@
 #
 ##############################################################################
 
-from openerp import models, fields, api, SUPERUSER_ID
+from odoo import models, fields, api, SUPERUSER_ID
 from datetime import datetime, timedelta
 import math
-from openerp.exceptions import Warning
-from openerp.tools.translate import _
+from odoo.exceptions import Warning
+from odoo.tools.translate import _
 import pytz
 
 WEEK_DAYS = [
@@ -752,4 +752,3 @@ class calendar_service_recurrent_rule(models.Model):
         if not self.calendar_ids:
             raise Warning(_("You should enter at least one Calendar Item!"))
     '''
-
