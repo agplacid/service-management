@@ -1,9 +1,9 @@
-# -*- encoding: utf-8 -*-
+ -*- encoding: utf-8 -*-
 ##############################################################################
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,9 +20,9 @@
 #
 ##############################################################################
 
-from odoo import models, fields, api
-from odoo.exceptions import Warning
-from odoo.tools.translate import _
+from openerp import models, fields, api
+from openerp.exceptions import Warning
+from openerp.tools.translate import _
 import pytz
 
 
