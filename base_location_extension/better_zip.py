@@ -20,7 +20,7 @@
 #
 ##############################################################################
 # from openerp.osv import orm, fields
-from openerp import api, fields, models
+from odoo import api, fields, models
 
 
 class BetterZip(models.Model):
@@ -91,4 +91,4 @@ class BetterZip(models.Model):
         # search in street, if no results in city
         if not ids:
             ids = self.search([('street_id.name', operator, name)] + args, limit=limit)
-        return ids.name_get()
+        return 
