@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <record model="ir.cron" id="ir_cron_scheduler_auto_generate_recurrent" forcecreate="True">
             <field name="name">Recurrent Calendar Scheduler</field>
@@ -24,4 +24,4 @@
             <field name="args" eval="'()'"/>
         </record>        
     </data>
-</openerp>
+</odoo>
