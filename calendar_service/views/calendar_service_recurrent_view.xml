@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>      
          <!--
         calendar.service.recurrent.rule
@@ -129,4 +129,4 @@
 
         <menuitem name="Recurrent Services Config" id="menu_calendar_service_recurrent" parent="base.menu_base_config" sequence="4" action="action_calendar_service_recurrent" groups="base.group_sale_manager"/>                                              
     </data>
-</openerp>
+</odoo>
