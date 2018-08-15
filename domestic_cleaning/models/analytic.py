@@ -3,7 +3,7 @@
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,7 +20,7 @@
 #
 ##############################################################################
 
-from odoo import models, fields
+from openerp import models, fields
 
 TERMINATION_REASON = [
     ('moved', 'Moved'), ('quality', 'Cleaning Quality'),
@@ -112,8 +112,3 @@ class account_analytic_account(models.Model):
     _inherit = 'account.analytic.account'
 
     termination_ids = fields.One2many('account.analytic.cleaning.termination', 'analytic_id', 'Termination Reasons')
-
-
-
-
-
