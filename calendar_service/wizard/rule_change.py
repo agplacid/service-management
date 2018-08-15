@@ -3,7 +3,7 @@
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,11 +20,11 @@
 #
 ##############################################################################
 
-from openerp import models, fields
-from openerp import api
+from odoo import models, fields
+from odoo import api
 from datetime import datetime, timedelta
-from openerp.exceptions import Warning
-from openerp.tools.translate import _
+from odoo.exceptions import Warning
+from odoo.tools.translate import _
 
 WEEK_DAYS = [
     ('S', 'Saturday'),
