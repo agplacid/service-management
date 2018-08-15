@@ -3,7 +3,7 @@
 #    
 #    Odoo, Open Source Management Solution
 #
-#    Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
+#    Author: Andrius LaukaviÄius. Copyright: JSC NOD Baltic
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,7 +19,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.     
 #
 ##############################################################################
-from odoo import models, fields, api
+from openerp import models, fields, api
 
 class res_partner(models.Model):
     _inherit = 'res.partner'
