@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <record model="calendar.service" id="calendar_service_1">
             <field name="name">DEMO-001</field>
@@ -36,4 +36,4 @@
         </record>  
 -->
     </data>
-</openerp>
+</odoo>
